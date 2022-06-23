@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <script>
+    'use strict';
+    let age = prompt("Please enter your age to continue!", "");
+    if (typeof age==="number" || Number.isInteger(Number(age))&&(Number(age)>0)){
+        let age_2=18
+        let age_3=60
+            if (age < age_2){
+            alert("You don\’t have access cause your age is "+age+" It\’s less then "+age_2)}
+            if (age>=age_2){
+                if(age<age_3){
+                    alert("Welcome  !")}
+                else{
+                    if(age>age_3){
+                        alert("Keep calm and look Culture channel")
+                    }
+                    else{
+                        alert("Technical work")
+                    }
+                }
+
+            }
+    }
+
+    else {
+    alert("The age entered is invalid! Please enter your age in years and try again!")};
+  </script>
+
+</body>
+</html>
