@@ -14,7 +14,7 @@ while (i<10){
 function powering_2(exponent) {
     let i=0
     let result=[]
-    while (i<10){
+    while (i<exponent){
         i++
         result[i-1]="2^"+i+"="+Math.pow(2, i)+";"
     }
@@ -26,10 +26,9 @@ console.log(powering_2(10))
 // решение 2 задачи 1*
 function powering_2_v2(exponent) {
     let i=0
-    let result=[]
-    while (i<10){
+    while (i<exponent){
     i++
-    console.log(result[i-1]="2^"+i+"="+Math.pow(2, i)+";")
+    console.log("2^"+i+"="+Math.pow(2, i)+";")
     }
 
 }
