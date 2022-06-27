@@ -120,7 +120,7 @@ function isPalindrom(word){
             }
         }   
             
-        if(pairs_equal===pairs_to_compare||length===0||length===1){
+        if(pairs_equal===pairs_to_compare){
             check=true
             }
         else{
